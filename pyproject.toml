@@ -10,6 +10,7 @@ description-file = "README.md"
 home-page = "https://github.com/IslasGECI/control_charts"
 module = "control_charts"
 requires = [
+    "pandas",
     "pyshewhart",
 ]
 requires-python=">=3.9"
