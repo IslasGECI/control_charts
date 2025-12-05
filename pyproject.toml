@@ -7,12 +7,13 @@ author = "Ciencia de Datos • GECI"
 author-email = "ciencia.datos@islas.org.mx"
 classifiers = [ "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",]
 description-file = "README.md"
-home-page = "https://github.com/IslasGECI/dummy_transformations"
-module = "dummy_transformations"
+home-page = "https://github.com/IslasGECI/control_charts"
+module = "control_charts"
 requires = [
+    "pyshewhart",
 ]
 requires-python=">=3.9"
 
 [tool.mutmut]
-paths_to_mutate = [ "dummy_transformations/" ]
+paths_to_mutate = [ "control_charts/" ]
 tests_dir = [ "tests/" ]
